@@ -36,8 +36,8 @@ aREST_UI rest = aREST_UI();
 
 // WiFi parameters
 const boolean debug = true;
-const char* ssid = "Band-NG";
-const char* password = "amersham";
+const char* ssid = "Your SSID";
+const char* password = "Your WiFi Password";
 const String st_html = "HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n<!DOCTYPE HTML>\r\n<html>\r\n";
 long eltime;
 // The port to listen for incoming TCP connections 

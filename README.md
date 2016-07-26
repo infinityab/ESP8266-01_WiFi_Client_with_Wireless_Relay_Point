@@ -11,9 +11,13 @@ Or build a seperate Wireless RC transmission unit using ESP8266-12e module as a 
 Message format for relays : ip address /digital/gpio pin #/ On or Off (0 or 1)
 example : 192.168.0.100/2/0  so ON command to relay on gpio 2 
 
+Message format for relay PULSE : ip address /pulse/gpio pin #/
+ESP8266-1 example : 192.168.0.100/pulse/2/ pulse relay ON & OFF for 500ms on gpio 2 (2 is only choice on ESP8266-1)
+ESP8266-12e example : 192.168.0.100/pulse/4 or 5/ with ESP8266-12e  
+
 Message format for wireless : ip address /wireless/wireless socket number + 20 / Off or On (0 or 1)
 example : 192.168.0.100/22/0  so OFF command directed to wireless socket #2 (on/off notation reversed)
 
 If using the GUI just enter the ip address on your PC, Tablet or mobile e.g.   http://192.168.0.100/
-Use GUI buttons for on and off relays, pulse for aircon for pulsed on/off, wireless for 315/433mhz wireless devices
-Import required libraries
+Use GUI buttons on the display for on and off relays, pulse for aircon for pulsed on/off, wireless for 315/433mhz wireless devices
+Import required libraries.
