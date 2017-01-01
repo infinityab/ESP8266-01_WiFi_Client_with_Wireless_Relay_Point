@@ -1,7 +1,7 @@
 // Original aRest modules  marco schwartz modifications Dave Clapham
 // Lights or power control via WiFi & Wireless using the ESP8266-12e nodeMCU device 
 // Message format for relays : ip address /digital/gpio pin #/ On/Off (0 or 1)
-//  example : 192.168.0.100/2/0  so ON command to relay on gpio 2 
+//  example : 192.168.0.100/digital/2/0  so ON command to relay on gpio 2 
 //
 // Message format for relay PULSE : ip address /pulse/gpio pin #/
 // example : 192.168.0.100/pulse/2/ pulse relay ON & OFF for 500ms on gpio 2 (2 is only choice, couple both relays for 2 x contacts) 
